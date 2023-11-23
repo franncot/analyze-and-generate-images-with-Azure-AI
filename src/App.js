@@ -20,7 +20,7 @@ function App() {
     <div>
       <h1>Compu Hiper Mega Red</h1>
       <input type="text" value={url} onChange={handleUrlChange} />
-      <span>&nbsp;</span> {/* Add a space */}
+      <br /> {/* Add a line break */}
       <button onClick={handleAnalyzeClick}>Analyze</button>
       <button onClick={handleGenerateClick}>Generate</button>
     </div>

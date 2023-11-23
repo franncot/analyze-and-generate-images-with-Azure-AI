@@ -8,7 +8,7 @@ function App() {
     setUrl(event.target.value);
   };
 
-  const handleActionClick = () => {
+  const handleGenerateClick = () => {
     // Perform action logic here
   };
 
@@ -18,10 +18,11 @@ function App() {
 
   return (
     <div>
-      <h1>Website Title</h1>
+      <h1>Compu Hiper Mega Red</h1>
       <input type="text" value={url} onChange={handleUrlChange} />
-      <button onClick={handleActionClick}>Action</button>
+      <span>&nbsp;</span> {/* Add a space */}
       <button onClick={handleAnalyzeClick}>Analyze</button>
+      <button onClick={handleGenerateClick}>Generate</button>
     </div>
   );
 }

@@ -21,6 +21,7 @@ function App() {
       <h1>Compu Hiper Mega Red</h1>
       <input type="text" value={url} onChange={handleUrlChange} />
       <br /> {/* Add a line break */}
+      <br /> {/* Add a line break */}
       <button onClick={handleAnalyzeClick}>Analyze</button>
       <button onClick={handleGenerateClick}>Generate</button>
     </div>

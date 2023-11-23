@@ -23,6 +23,7 @@ function App() {
       <br /> {/* Add a line break */}
       <br /> {/* Add a line break */}
       <button onClick={handleAnalyzeClick}>Analyze</button>
+      &nbsp;&nbsp; {/* Add space between the buttons */}
       <button onClick={handleGenerateClick}>Generate</button>
     </div>
   );

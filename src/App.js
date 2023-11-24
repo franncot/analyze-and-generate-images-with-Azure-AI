@@ -27,7 +27,7 @@ function App() {
         <div>
           <h2>Analysis Results:</h2>
           <p>Processed Image URL: {url}</p>
-          {/* Display other analysis results here */}
+          <pre>{JSON.stringify(results, null, 2)}</pre>
         </div>
       );
     }
